@@ -3,14 +3,14 @@ import React from 'react';
 
 const NavBar = () => {
   return (
-    <nav className="navbar">
-      <h1>MoviesApp</h1>
-      <div>
-        <a href="#latest-shows">Latest Shows</a>
-        <a href="#favorites">Favorites</a>
-        <a href="#top-rated">Top Rated</a>
+    <div className="navbar bg-base-100 shadow-lg">
+      <div className="flex-1">
+        <a href="/" className="btn btn-ghost normal-case text-xl">Movie Search</a>
       </div>
-    </nav>
+      <div className="flex-none">
+        <button className="btn btn-primary">Login</button>
+      </div>
+    </div>
   );
 };
 
